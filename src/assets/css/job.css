@@ -14,11 +14,11 @@
 }
 .form_title{ /**表单头部banner 文字**/
   position: absolute;
-  top:70px;
-  font-size: 22px;
+  top:30%;
+  font-size: 52px;
   font-weight: bold;
   color: #fff;
-  left:20px;
+  left:7%;
 }
 
 .form_field {/**表单填写项容器宽度**/
@@ -71,6 +71,26 @@
   box-sizing: border-box;
   padding: 0 10px;
 }
+.user_value_input{ /**表单填写项input样式**/
+  width: 500px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.mobile_value_input{ /**表单填写项input样式**/
+  width: 500px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
 .form_value_input01{ /**表单填写项input样式**/
   width: 500px;
   border:1px solid #ddd;
@@ -94,6 +114,27 @@
   margin-right: 20px;
 }
 .form_value_input{ /**表单填写项input样式**/
+  width: 500px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+}
+.num_value_input{ /**表单填写项input样式**/
+  width: 500px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-top: 18px;
+}
+.school_value_input{ /**表单填写项input样式**/
   width: 500px;
   border:1px solid #ddd;
   font-size: 14;
@@ -148,6 +189,86 @@
 .phone_icon::after {
   background: url("../images/icon/phone.png") no-repeat;
   background-size: 100% auto;
+}
+.interview_select {
+  width: 500px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.comments {
+  height: 10em;
+  width: 500px;
+}
+.upload_field { /**上传图片备注容器**/
+  width: 25%;
+}
+.upload_field .form_field_label{ /**单独设置上传图片字段容器宽度**/
+  width: 100%;
+}
+.kuang01{
+  width: 100px;
+  height: 30px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-left: 100px;
+}
+.kuang02{
+  width: 100px;
+  height: 30px;
+  border:1px solid #ddd;
+  font-size: 14;
+  line-height: 30px;
+  outline: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  padding: 0 10px;
+  margin-left: -20px;
+}
+.salary_label{ /**表单字段名**/
+  font-size: 16px;
+  color: #333;
+  /*width: 25%;*/
+  height: 28px;
+  margin-left: 50px;
+}
+.salary_label::after{ /**字段名必填标志**/
+  content: "*";
+  color:#da2824;
+  margin-left:5px;
+  font-size: 16px;
+}
+.salary_note_fade{ /**字段名备注样式(浅灰色)**/
+  font-size: 12px;
+  height: 22px;
+  color: rgba(102, 102, 102, 0.7);
+  margin-top: 30px;
+  margin-left: -53px;
+}
+.salary_note_light{ /**字段名备注样式(深灰色)**/
+  font-size: 14px;
+  line-height: 22px;
+  color: #666;
+}
+.form_radio {
+  margin-right: 0px;
+  margin-left: 150px;
+}
+.form_checkbox {
+  margin-left: 50px;
+  margin-right: 10px;
+
+}
+.time01 {
+  margin-left: -180px;
+  margin-right: 150px;
+}
+.time02 {
+  margin-left: -180px;
 }
 
 

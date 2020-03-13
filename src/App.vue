@@ -17,6 +17,6 @@ export default {
 
 <style>
   @import url("../src/assets/css/init.css");
-  @import url("../src/assets/css/wx_ent.css");
-  @import url("../src/assets/css/ph_issue.css");
+  @import url("../src/assets/css/job.css");
+  @import url("../src/assets/css/phone.css");
 </style>
