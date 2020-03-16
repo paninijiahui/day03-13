@@ -1,7 +1,8 @@
 .ent_from {
   width: 800px;
+  vertical-align:middle;
   margin: 0 auto;
-  background:#f8f9fe;
+  background: #F8F9FE;
 }
 .form_banner{ /**表单头部banner**/
   width: 100%;
@@ -132,7 +133,7 @@
   box-shadow: none;
   box-sizing: border-box;
   padding: 0 10px;
-  margin-top: 18px;
+  margin-top: 15px;
 }
 .school_value_input{ /**表单填写项input样式**/
   width: 500px;
@@ -270,5 +271,8 @@
 .time02 {
   margin-left: -180px;
 }
+
+
+
 
 
